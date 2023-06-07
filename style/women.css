@@ -1,0 +1,105 @@
+*{
+    font-family: 'WebFont', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0.1% 0.6%;  
+    border-bottom: gray 1px solid;
+    height: 50px;
+    
+}
+#f, #s{
+    width: 100%;
+}
+#f{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+    margin-left: 35px;
+}
+#s{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+
+}
+#s li{
+    margin: 0 50px;
+}
+#logo{
+    width: 130px; 
+}
+
+.sh{
+    margin: 15px;
+    font-weight: lighter;
+}
+.pic1, .pic2{
+    width: 300px;
+    
+}
+.pics{
+    position: relative;
+    width: 300px; 
+    max-width: 100%;
+  }
+  .pics img.pic2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .pics:hover img.pic2 {
+    opacity: 1;
+  }
+  .first{
+    margin: 10px;
+  }
+  .rect{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .all{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #btnback{
+    background-color: transparent; border: 0; cursor: pointer;
+}
+#arrowback{
+    position: absolute; margin: 0; width:27px;
+}
+#btnforward{
+    width:30px; background-color: transparent; cursor: pointer;
+}
+#arrowf{
+    position: absolute;  margin: 0; width:27px;
+}
+.karusel img{
+    margin: 60px 200px 20px;
+    position: relative;
+}
+.pradaspherenews h1{
+    color: #fff;
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADA</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="main_style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;800&family=Libre+Franklin:wght@700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <style>
+           
+            @media screen and (max-width: 800px) {
+                
+                nav{
+                    display: grid;
+                    grid-template-columns: 250px 100px 300px;
+                    margin-left: 45px;
+                    border-bottom: none;
+                }
+                nav ul li{
+                    word-wrap: none;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+                #f{
+                    margin-left: 20px;
+                    padding-left: 0;
+                }
+                #s a{
+                    margin: 0 0 0 10px;
+                }
+                #s li{
+                    margin: 0 0 0 25px;
+                    padding: 0;
+                }
+
+                video{
+                    margin: 0;
+                    padding: 5px;
+                }
+                #textonvideo{
+                     top:30%;
+                    
+                }
+                #womencollection, #mencollection{
+                    width: 380px;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                .gallery h1, .gallery button{
+                    font-size: large;
+                    width: 30%;
+                    margin: 10px 0 0 0;
+                }
+                .elements button{
+                    margin-left: 100px;
+                }
+                .elements2 button{
+                    margin-left: 130px;
+                }
+                #bag img{
+                    width:100%;
+                }
+                #bagelements{
+                    top:40%;
+                }
+                #men video{
+                    width: 97.4%;
+                    margin-left: 6px;
+                }
+                #image{
+                    width: 500px;
+                    margin: 60px 100px 20px 120px;
+                }
+                .pradaspherenews{
+                    position: relative;
+                    height: 500px;
+                }
+                #arrowback{
+                    position: absolute;
+                    top:80%;
+                    left: 40%;
+                }
+                #arrowf{
+                    position: absolute;
+                    top:80%;
+                    right: 40%;
+                }
+                #description{
+                    position: absolute;
+                    top:68%;
+                    left: 15.5%;
+                    margin: 0;
+                }
+                #DISCOVERPS{
+                    position: absolute;
+                    top: 90%;
+                    left: 43.7%;
+
+                }
+                form{
+                    position: relative;
+
+                }
+                #contract{
+                    position: absolute;
+                    top:40%;
+                    right:0%;
+                }
+                #pradaproducts{
+                    position: absolute;
+                    top:95%;
+                    left:3.5%;
+                }
+                #submit{
+                    position: absolute;
+                    top: 8px;
+                    margin-left: 440px;
+                    padding:10px 30px;
+                }
+                #news{
+                    height: 300px;
+                }
+                #logo{
+                    margin-left: 10px;
+                }
+               
+                
+            }
+        </style>
+        <nav>
+        <ul id="f">
+            <li><a href="women.html" style="text-decoration: none; color: black;">WOMEN</a></li>
+            <li><a href="women.html" style="text-decoration: none; color: black;">MEN</a></li>
+            <li><a href="women.html" style="text-decoration: none; color: black;">BAGS</a></li>
+            </ul>
+            <a href="main.html"><img src="pradalogo.jpg" id="logo" alt=""></a>
+            <ul id="s">
+            <li><a href="women.html" style="text-decoration: none; color: black;">GIFTS</a></li>
+            <li><a href="LineaRossa.html" style="text-decoration: none; color: black;">LINEA ROSSA</a></li>
+            <li><a href="pradashpere.html" style="text-decoration: none; color: black;">PRADASPHERE</a></li>
+       
+        </ul>
+        
+    </nav>
+    <video src="main-page-video.webm" autoplay loop muted></video>
+    <div id="textonvideo">
+        <h1>Gifts</h1>
+        <button class="btn">FOR HER</button>
+        <button class="btn">FOR HIM</button>
+    </div>
+    <div class="gallery">
+        <img src="womencollection.jpg" id="womencollection" alt="">
+        <div class="elements">
+        <h1>Holiday Collection Women</h1>
+        <button>DISCOVER</button>
+        </div>
+        <img src="mencollection.png" id="mencollection" alt="">
+        <div class="elements2">
+        <h1>Holiday Collection Men</h1>
+        <button>DISCOVER</button>
+        </div>
+        
+    </div>
+    <div id="bag">
+        <img src="pradagallery.png" alt="">
+        <div id="bagelements">
+        <h1 >Prada Galleria</h1>
+        <p>The timeless shape of Prada Galleria reimagined in an endless array of colors and materials.</p>
+            <button>DISCOVER MORE</button>
+        </div>
+    </div>
+    <div id="men">
+        <video src="https://www.prada.com/content/dam/pradanux/home_page/2022/11/update_galleria/banner_bags_men/loop_DT.mp4/_jcr_content/renditions/cq5dam.video.pradanux-large.1920.1080.mp4" autoplay loop muted ></video>
+        <div id="menel">
+        <h1>Men's Bags</h1>
+        <button>DISCOVER</button>
+    </div>
+    </div>
+    <div class="pradaspherenews">
+        <h1 id="psnews">Pradasphere ___ News</h1>
+        <img src="holiday2022.png" id="image" alt="">
+        <h1 id="description">Holiday 2022</h1>
+        <button id="btnback"><img src="arrowback.png" id="arrowback" alt=""></button>
+        <button id="btnforward" ><img id="arrowf" src="arrowforward.png" alt=""></button>
+        <button id="DISCOVERPS">DISCOVER</button>
+    </div>
+
+    <div id="news">
+        <h2>NEWSLETTER</h2>
+        
+    <form action="index.php" method="post">
+        <input type="email" name="email" id="email" class="ta" placeholder="*Email" required>
+        <div id="hide">
+        <input type="text" name="fname" class="ta" placeholder="*First name" required>
+        <input type="text" name="lname" class="ta" placeholder="*Last name" required>
+        <p id="contract">I wish to be contacted by email to receive Prada newsletters, personalized information on Prada products and services, invitations to events and marketing surveys in relation with :</p>
+        <div id="pradaproducts">
+        <input type="checkbox" name="choice[]" value="Prada products">Prada products<br>
+        <input type="checkbox" name="choice[]" value="Pradasphere news">Pradasphere news<br>
+        <input type="submit" name="submit" value="Confirm" id="submit">
+    </div>
+</div>
+    </form>
+
+    </div>
+    
+
+    <footer>
+        <div id="company">
+            <ul>
+                <li id="strong"><strong>COMPANY</strong></li>
+                <li><a href="PradaGroup.html">Prada Group</a></li>
+                <li><a href="#">Luna Rossa</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="#">Work with us</a></li>
+            </ul>
+        </div>
+        <div id="legal">
+            <ul>
+                <li id="strong"><strong>LEGAL TERMS AND CONDITIONS</strong></li>
+                <li><a href="#">Legal Notice</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+        <div id="icons">
+            <img src="facebook.png" alt="">
+            <img src="twitter.png" alt="">
+            <img src="insagram.png" alt="">
+            <img src="youtube.png" alt="">
+            <img src="spotify.png" alt="">
+        </div>
+        <p id="copyright">©PRADA 2007 - 2022 | VAT n. 10115350158</p>
+    </footer>
+    <script>
+        const i = document.getElementById("image");
+        const imgs = ['ss2023womenswear.png', 'fw22women.png', 'fw22men.png', 'ss23menswear.png', 'thesymbole.png', 'holiday2022.png'];
+        const desc = ['SS 2023 Womenswear', 'FW22 Women', 'FW22 Men', 'SS23 Menswear', 'The Symbole', 'Holiday 2022'];
+        let index = 0;
+        btnforward.addEventListener("click", function change(){
+            document.getElementById("image").src = imgs[index];
+            document.getElementById("description").innerHTML = desc[index];
+
+            index = index >= imgs.length - 1 ? 0 : index + 1;
+        });
+        btnback.addEventListener("click", function change(){
+            index = index > 0 ? --index : imgs.length - 1;
+            document.getElementById("image").src = imgs[index];
+            document.getElementById("description").innerHTML = desc[index];
+        });
+
+
+        email.addEventListener('focus', function news(){
+            document.getElementById("hide").style.display="contents";
+             document.getElementById('news').style.height="300px";
+        });
+        
+        // function news(){
+        //     document.getElementById("hide").style.display="contents";
+        //     document.getElementById('news').style.height="300px";
+        // }
+    </script>
+</body>
+</html>

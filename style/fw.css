@@ -1,0 +1,233 @@
+*{
+    font-family: 'WebFont', Arial, sans-serif;
+    color: white;
+}
+.bigp.img{
+    padding: 5px;
+    left: 0;
+    margin: 10px;
+    top: 0;
+    position: absolute;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0.1% 0.6%;  
+    border-bottom: gray 1px solid;
+    height: 50px;
+    
+}
+#f, #s{
+    width: 100%;
+}
+#f{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+    margin-left: 35px;
+}
+#s{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    cursor: pointer; 
+    font-size: smaller;
+
+}
+#s li{
+    margin: 0 50px;
+}
+#logo{
+    width: 130px; 
+}
+
+body{
+    background-color: black;
+}
+.bigp{
+    position: relative;
+    text-align: center;
+}
+.headd{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    z-index: 100;
+    font-size: 25px;
+    font-weight: bold;
+}
+.watch{
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    text-decoration: none;
+    z-index: 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+.watch, .morel, .discover {
+    background-image: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease;
+    color: rgb(255, 255, 255);
+}
+
+.watch:hover, .morel:hover, .discover:hover {
+    background-position: bottom;
+    color: black;
+    border-style: none;
+}
+
+.fixed{
+    background-color: rgb(27, 27, 27);
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: -10px;
+}
+.fash{
+    background-color: rgb(27, 27, 27);
+    padding: 40px;
+    margin: 5px;
+}
+.im{
+    width: 100%;
+}
+.desc{
+    display: flex;
+    align-items: baseline;
+}
+
+.look{
+    margin: 10px;
+}
+.looks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.inside{
+    width: 335px;
+}
+.morelooks{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+.wear{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+}
+.w{
+    width: 680px;
+    height: 800px;
+    position: relative;
+}
+.womens{
+    margin: 10px;
+}
+.fw{
+    position: relative;
+    z-index: 100;
+    left: 20px;
+    top: -820px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.discover{
+    position: relative;
+    z-index: 100;
+    left: 590px;
+    top: -890px;
+    text-decoration: none;
+    font-size: larger;
+    padding:5px;
+}
+.buttons{
+    display: flex;
+    align-items: baseline;
+}
+.cast{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.hid{
+    display: none;
+}
+footer{
+    position: relative;
+    margin: 15px 0 0;
+    border-top: rgb(184, 184, 184) solid 1px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+}
+footer ul li{
+    list-style: none;
+    margin: 5px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#company{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+#legal{
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
+#icons{
+    position: absolute;
+    right: 15px;
+    top: 70px;
+}
+#icons img{
+    margin: 7px;
+    cursor: pointer;
+    width:20px;
+}
+@media screen and (max-width:400px){
+    body{
+        width: 400px;
+    }
+    .hdr{
+        display: none;
+    }
+    .headd{
+        font-size: 14px;
+        position: absolute;
+        left: 70px;
+    }
+    .inside{
+        width: 350px;
+    }
+    .watch{
+        position: absolute;
+        left: 100px;
+    }
+    .w{
+        width: 100%;
+    }
+    .sh, .fh{
+        text-align: center;
+        align-items: center;
+    }
+}
